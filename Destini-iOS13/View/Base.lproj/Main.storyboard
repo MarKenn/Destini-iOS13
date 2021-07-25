@@ -52,6 +52,9 @@
                                         <state key="normal" title="ChoiceTwo" backgroundImage="choice2Background">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m3i-Hd-Mwp"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
