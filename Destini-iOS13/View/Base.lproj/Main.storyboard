@@ -39,6 +39,9 @@
                                         <state key="normal" title="ChoiceOne" backgroundImage="choice1Background">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iAj-k2-Lxx"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ouV-J6-fky">
                                         <rect key="frame" x="0.0" y="718" width="374" height="100"/>
@@ -66,6 +69,11 @@
                             <constraint firstItem="lKe-QQ-sCK" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yW7-hy-rhf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="choice1Button" destination="uLG-le-IZc" id="xZk-Rz-HEf"/>
+                        <outlet property="choice2Button" destination="ouV-J6-fky" id="esg-Ff-sG0"/>
+                        <outlet property="storyLabel" destination="fLg-1x-DWJ" id="lbw-4Z-5Qs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
